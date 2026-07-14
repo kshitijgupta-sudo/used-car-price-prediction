@@ -1,200 +1,65 @@
-**# Used Car Price Prediction**
+# Used Car Price Prediction
 
+Predicting the resale value of used cars using an end-to-end machine learning workflow built with Python and scikit-learn.
 
+## Motivation
 
-**An end-to-end machine learning project for predicting the market price of used cars using regression algorithms and a complete data science workflow.**
- 
+Pricing a used vehicle is a challenging regression problem influenced by multiple factors such as age, engine specifications, fuel type, transmission, ownership history, and mileage. The objective of this project is to investigate these relationships and build a model capable of estimating a vehicle's market value from its attributes.
 
+This repository is an implementation of a complete machine learning pipeline, from exploratory data analysis to model evaluation, on a real-world dataset.
 
-**## Overview**
+## Objectives
 
+* Understand the structure and quality of the dataset.
+* Perform exploratory data analysis to identify meaningful patterns.
+* Engineer informative features.
+* Build reproducible preprocessing pipelines.
+* Compare multiple regression algorithms.
+* Evaluate model performance using appropriate regression metrics.
 
+## Repository Structure
 
-**The objective of this project is to develop a robust machine learning pipeline capable of estimating used car prices from vehicle attributes such as manufacturing year, mileage, fuel type, transmission, engine specifications, and other relevant features.**
+```text
+used-car-price-prediction/
+├── data/
+├── notebooks/
+├── src/
+├── models/
+├── images/
+├── reports/
+├── README.md
+└── requirements.txt
+```
 
+## Technologies
 
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* Jupyter Notebook
 
-**The project follows an industry-standard machine learning workflow, including:**
+## Current Progress
 
+The project is currently under active development.
 
+* Repository structure completed.
+* Dataset imported.
+* Train-test split created.
+* Exploratory data analysis in progress.
 
-**- Data Exploration**
+Future updates will include feature engineering, preprocessing pipelines, model comparison, hyperparameter tuning, and a discussion of the final results.
 
-**- Data Cleaning \& Preprocessing**
+## Future Work
 
-**- Feature Engineering**
+* Compare linear and tree-based regression models.
+* Investigate feature importance.
+* Experiment with ensemble methods.
+* Package the preprocessing and training pipeline into reusable modules.
 
-**- Exploratory Data Analysis (EDA)**
+## References
 
-**- Model Development**
-
-**- Hyperparameter Tuning**
-
-**- Model Evaluation**
-
-**- Performance Comparison**
-
-
-
-**---**
-
-
-
-**## Tech Stack**
-
-
-
-**- Python**
-
-**- Pandas**
-
-**- NumPy**
-
-**- Matplotlib**
-
-**- Scikit-learn**
-
-**- Jupyter Notebook**
-
-
-
-**---**
-
-
-
-**## Repository Structure**
-
-
-
-**```**
-
-**used-car-price-prediction**
-
-**│**
-
-**├── data/**
-
-**│   ├── raw/**
-
-**│   └── processed/**
-
-**│**
-
-**├── notebooks/**
-
-**│**
-
-**├── src/**
-
-**│**
-
-**├── models/**
-
-**│**
-
-**├── images/**
-
-**│**
-
-**├── reports/**
-
-**│**
-
-**├── requirements.txt**
-
-**├── README.md**
-
-**└── .gitignore**
-
-**```**
-
-
-
-**---**
-
-
-
-**## Project Workflow**
-
-
-
-**1. Data Collection**
-
-**2. Data Cleaning**
-
-**3. Exploratory Data Analysis**
-
-**4. Feature Engineering**
-
-**5. Data Preprocessing**
-
-**6. Model Training**
-
-**7. Hyperparameter Optimization**
-
-**8. Model Evaluation**
-
-**9. Performance Analysis**
-
-
-
-**---**
-
-
-
-**## Current Status**
-
-
-
-**\*\*Project Status:\*\* In Progress**
-
-
-
-**- \[x] Repository Initialized**
-
-**- \[ ] Dataset Selection**
-
-**- \[ ] Exploratory Data Analysis**
-
-**- \[ ] Feature Engineering**
-
-**- \[ ] Data Preprocessing**
-
-**- \[ ] Model Training**
-
-**- \[ ] Hyperparameter Tuning**
-
-**- \[ ] Final Evaluation**
-
-**- \[ ] Documentation**
-
-
-
-**---**
-
-
-
-**## Future Improvements**
-
-
-
-**- Deploy the trained model as a web application.**
-
-**- Experiment with advanced ensemble methods.**
-
-**- Improve feature engineering.**
-
-**- Implement model explainability using SHAP.**
-
-
-
-**---**
-
-
-
-**## License**
-
-
-
-**This project is released under the MIT License.**
-
+* *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow* — Aurélien Géron
+* Scikit-learn Documentation
+* Pandas Documentation
